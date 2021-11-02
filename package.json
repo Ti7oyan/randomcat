@@ -1,0 +1,36 @@
+{
+  "name": "randomcat",
+  "description": "Random cat image getter using Random Cat Public API",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "prettier": "npx prettier -w $FILE"
+  },
+  "author": "Ticiano Morvan <ticiano.morvan@protonmail.com>",
+  "dependencies": {
+    "@types/scrollreveal": "^0.0.7",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.0",
+    "react-bootstrap": "^2.0.1",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.3.1",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.1.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.13"
+  }
+}
